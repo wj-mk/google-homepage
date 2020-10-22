@@ -4,14 +4,11 @@
         <link href="StyleSheet.css" rel="stylesheet">
     </head>
     <!-- to do: 
-        header: make links black in colour and not underlined
-        search bar: add magnifying class image, change it's font
-        add two buttons below search bar
         footer: create footer
         refactor: code
     -->
     <body>
-        <ul>
+        <ul id="header">
             <li><a href="" class="left">About</a></li>
             <li><a href="" class="left">Store</a></li>
             <li><a href="" id="sign_in">Sign in</a></li>
@@ -20,16 +17,31 @@
             <li><a href="" class="right">Gmail</a></li>
         </ul>
 
-
     <center>
-    <div id="google_logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
-    </div>
+        <div id="google_logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
 
-    <div>
-        <input type="text" id="search_bar">
-    </div>
+        <div>
+            <input type="text" id="search_bar">
+        </div>
+
+        <div>
+            <button class="button" type="button">Google Search</button>
+            <button class="button" type="button">I'm Feeling Lucky</button>
+        </div>
     </center>
+        <div style="background-color: rgba(0,0,0,.1)">
+            <ul id="footer">
+                <li><p class="left" style="font-size: 15px; font-family: Arial, sans-serif; width: 100%;">United Kingdom</p></li>
+                <li><a href="" class="left">Privacy</a></li>
+                <li><a href="" class="left">Privacy</a></li>
+                <li><a href="" class="left">Privacy</a></li>
+                <li><a href="" class="right">Privacy</a></li>
+                <li><a href="" class="right">Privacy</a></li>
+                <li><a href="" class="right">Privacy</a></li>
+            </ul>
+        <div>
 
 
     </body>

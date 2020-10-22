@@ -1,12 +1,31 @@
-ul {
+body {
+    margin: 0;
+}
+
+#header {
     list-style-type: none;
     margin: 0;
     padding: 0;
     padding-top: 10px;
 }
 
+#footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+    background-color: rgba(0,0,0,.1);
+    width: 100%;
+}
+
 li {
     display: inline;
+}
+
+li a:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -14,6 +33,7 @@ a {
     font-family: Arial, sans-serif;
     font-size: 13px;
     color: #000;
+    opacity: 0.75;
 }
 
 .left {
@@ -26,29 +46,25 @@ a {
 }
 
 #google_logo {
-    padding-top: 109px;
+    padding-top: 120px;
     
 }
 
 #search_bar {
     margin-top: 20px;
-    width: 40%;
+    width: 60%;
     min-width: 272px;
     border-radius: 25px;
     border: 1px solid rgb(220,220,220);
     padding: 10px;
+    margin: 20px;
 }
 
-#left_matter {
-    padding-left: 15px;
-}
-
-header {
-
-    
-    width: 100%;
-    height: 15px;
-    
+.button {
+    margin: 11px 4px 11px 4px;
+    padding: 0px 16px 0px 16px;
+    height: 34px;
+    opacity: 0.75;  
 }
 
 #squares {
@@ -71,8 +87,4 @@ header {
     color: #fff;
     background-color: #4285f4;
     border-radius: 2px;
-}
-
-a:link {
-    color: black;
 }

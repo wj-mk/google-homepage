@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 #header {
@@ -30,7 +31,6 @@ li a:hover {
 
 a {
     text-decoration: none;
-    font-family: Arial, sans-serif;
     font-size: 13px;
     color: #000;
     opacity: 0.75;
@@ -91,7 +91,6 @@ a {
 
 #UK {
     font-size: 15px; 
-    font-family: arial, sans-serif;  
     border-bottom: 1px solid  rgb(200,200,200); 
     padding-bottom: 15px; 
     color: #5F6368;

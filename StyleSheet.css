@@ -1,5 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+
+.left {
+    padding-left: 15px
+}
+
+.right {
+    float: right;
+    padding-right: 15px;
+}
+
 #google_logo {
     padding-top: 109px;
+    
 }
 
 #search_bar {
@@ -16,12 +44,11 @@
 }
 
 header {
-    padding-top: 10px;
-    font-family: Arial, sans-serif;
-    font-size: 13px;
+
+    
     width: 100%;
     height: 15px;
-    color: #000;
+    
 }
 
 #squares {

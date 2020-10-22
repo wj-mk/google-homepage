@@ -88,3 +88,16 @@ a {
     background-color: #4285f4;
     border-radius: 2px;
 }
+
+#UK {
+    font-size: 15px; 
+    font-family: arial, sans-serif;  
+    border-bottom: 1px solid  rgb(200,200,200); 
+    padding-bottom: 15px; 
+    color: #5F6368;
+}
+
+.foot_text {
+    font-size: 14px;
+    color: #5F6368;
+}

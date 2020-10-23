@@ -117,16 +117,4 @@ p {
 .foot_text {
     font-size: 14px;
     color: #5F6368;
-    padding-left:;
-}
-
-#footer {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 10px;
-    background-color: rgba(0,0,0,.1);
-    width: 100%;
 }

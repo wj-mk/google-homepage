@@ -1,23 +1,11 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-#header {
-    list-style-type: none;
+#nav-bar {
     margin: 0;
-    padding: 0;
-    padding-top: 10px;
-}
-
-#footer {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 10px;
-    background-color: rgba(0,0,0,.1);
-    width: 100%;
+    padding: 20px 10px 0px 10px;
 }
 
 li {
@@ -30,7 +18,6 @@ li a:hover {
 
 a {
     text-decoration: none;
-    font-family: Arial, sans-serif;
     font-size: 13px;
     color: #000;
     opacity: 0.75;
@@ -51,20 +38,37 @@ a {
 }
 
 #search_bar {
-    margin-top: 20px;
-    width: 60%;
+
+    width: 75%;
     min-width: 272px;
     border-radius: 25px;
     border: 1px solid rgb(220,220,220);
-    padding: 10px;
+    height: 42px;
     margin: 20px;
 }
 
-.button {
-    margin: 11px 4px 11px 4px;
+#search_bar:hover {
+    box-shadow: 3px 3px 4px rgb(220,220,220);
+}
+
+[type="button"] {
+    margin: 11px 20px 11px 4px;
     padding: 0px 16px 0px 16px;
     height: 34px;
-    opacity: 0.75;  
+    font-size: 14px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    border-width: 0px;
+
+    border-radius: 5px;
+}
+
+[type="button"]:hover {
+    border-color:rgb(220,220,220);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: whitesmoke;
 }
 
 #squares {
@@ -74,6 +78,7 @@ a {
     height: 30px;
     float: right;
     background-position: -132px -44px;
+    opacity: 0.5;
 }
 
 #sign_in {
@@ -89,12 +94,24 @@ a {
     border-radius: 2px;
 }
 
+#foot {
+    background-color:rgba(100,100,100,.1);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
 #UK {
-    font-size: 15px; 
-    font-family: arial, sans-serif;  
-    border-bottom: 1px solid  rgb(200,200,200); 
-    padding-bottom: 15px; 
+    border-bottom: 1px solid  rgb(200,200,200);
+    border-top: 1px solid  rgb(200,200,200);
+    padding-left: 30px; 
+}
+
+p { 
+    font-size: 15px;
     color: #5F6368;
+    margin: 0px;
+    padding: 12px 0px 10px 0px;
 }
 
 .foot_text {
